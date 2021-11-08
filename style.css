@@ -1,0 +1,22 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.download-btn {
+  padding: 12px 24px;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fff;
+  background: linear-gradient(to right, #40a7fc, #056cc0);
+  border: none;
+  border-radius: 8px;
+  margin: 8px 24px;
+  box-shadow: 0 6px 20px -8px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  transition: all 500ms ease;
+}
+
+.download-btn:hover {
+  transform: translateY(-4px);
+}
